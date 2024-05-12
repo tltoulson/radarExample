@@ -1,0 +1,13 @@
+@import '@servicenow/sass-kit/host';
+
+.radarContainer {
+    background-color: lightgray;
+    position: relative;
+}
+
+.target {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+}

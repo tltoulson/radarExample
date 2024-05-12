@@ -1,0 +1,41 @@
+{
+	"components": {
+	    "x-0505-radar-test": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Radar Component",
+				"icon": "document-outline",
+				"description": "A Radar visualiation of absolutely nothing",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "targets",
+					"label": "Targets",
+					"description": "An array of targets that will be displayed on the radar",
+					"readOnly": false,
+					"fieldType": "json",
+					"required": true,
+					"defaultValue": [
+						{ 
+							"direction": 0, 
+							"distance": 250, 
+							"color": "blue" 
+						}
+					]
+				},
+				{
+					"name": "radarSize",
+					"label": "Radar Size",
+					"description": "Width and Height of the radar in pixels",
+					"readOnly": false,
+					"fieldType": "integer",
+					"required": true,
+					"defaultValue": 500
+				}
+			]
+	    }
+	},
+	"scopeName": "x_0505_radar_test"
+}
